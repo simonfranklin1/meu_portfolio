@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
     background: radial-gradient(circle at 50% 50%, rgb(160, 86, 160) 10%, rgb(48, 16, 53) 100%);
 }
 
@@ -14,20 +14,20 @@
 }
 
 .portfolio_header-title h2 {
-    font-size: 100px;
-    line-height: 80px;
+    font-size: 130px;
+    line-height: 110px;
 }
 
 .title-icons {
-    font-size: 55px;
+    font-size: 70px;
     line-height: 0;
-    margin-left: 1rem;
+    margin-left: 1.5rem;
 }
 
 .title-icons svg {
     cursor: pointer;
     transition: .3s;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
 }
 
 .title-icons svg:hover {
@@ -58,19 +58,35 @@
     color: rgb(160, 86, 160);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 936px) {
     .portfolio_header-title h2 {
-        font-size: 70px;
-        line-height: 60px;
+        font-size: 100px;
+        line-height: 80px;
+    }
+
+    .title-icons {
+        font-size: 50px;
+        margin-left: 2rem;
+    }
+
+    .title-icons svg {
+        margin-right: 1rem;
+    }
+
+    .portfolio_header-btn {
+        padding: .5rem 1.3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .portfolio_header-title h2 {
+        font-size: 80px;
+        line-height: 65px;
     }
 
     .title-icons {
         font-size: 40px;
-        margin-left: .8rem;
-    }
-
-    .title-icons svg {
-        margin-right: .5rem;
+        margin-left: 1.3rem;
     }
 
     .portfolio_header-btn {
@@ -80,18 +96,22 @@
 
 
 @media screen and (max-width: 450px) {
+    .portfolio_header {
+        gap: 5rem;
+    }
+
     .portfolio_header-title h2 {
-        font-size: 50px;
-        line-height: 45px;
+        font-size: 60px;
+        line-height: 50px;
     }
 
     .title-icons {
-        font-size: 30px;
+        font-size: 35px;
         margin-left: .5rem;
     }
 
     .title-icons svg {
-        margin-right: .3rem;
+        margin-right: .5rem;
     }
 
     .portfolio_header-title p {

@@ -38,6 +38,7 @@
     align-items: flex-start;
     width: 50%;
     font-size: 25px;
+    padding: 20px;
 }
 
 .portfolio_skills-description_text, .instruction {
@@ -69,6 +70,7 @@
 
     .portfolio_skills-descriptions {
         font-size: 23px;
+        padding: 10px;
     }
 }
 
@@ -78,7 +80,7 @@
     .portfolio_skills-container {
         flex-direction: column;
         justify-content: unset;
-        min-height: 40vh;
+        min-height: 50vh;
         gap: 5rem;
     }
 
@@ -91,10 +93,10 @@
     }
 }
 
-@media screen and (max-width: 450px) { 
-
+@media screen and (max-width: 450px) {
+    
     .portfolio_skills-container {
-        min-height: 30vh;
+        height: 40vh;
     }
 
     .portfolio_skills-icons {
@@ -110,5 +112,6 @@
 
     .portfolio_skills-descriptions {
         font-size: 15px;
+        padding: 0;
     }
 }
