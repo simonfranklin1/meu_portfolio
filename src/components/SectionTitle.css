@@ -1,0 +1,34 @@
+.portfolio_section-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.portfolio_section-title div {
+    width: 100px;
+    height: 5px;
+    /*background: linear-gradient(90deg, rgba(0, 188, 212, 1) 0%, rgba(76, 175, 80, 1) 100%);*/
+    background: linear-gradient(to right, rgb(163, 91, 230), rgb(58, 127, 207));
+    margin-bottom: 1.3rem;
+}
+
+.section-title {
+    font-size: 30px;
+    margin-bottom: .3rem;
+    text-transform: capitalize;
+}
+
+.section-text {
+    opacity: .8;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 450px) {
+    .section-title {
+        font-size: 20px;
+    }
+
+    .portfolio_section-title div {
+        width: 70px;
+    }
+}

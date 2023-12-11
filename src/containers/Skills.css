@@ -1,0 +1,114 @@
+.portfolio_skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio_skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 30%;
+}
+
+.skill_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    font-size: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.534);
+    border-radius: 5px;
+}
+
+.skill_box:hover {
+    border-color: rgb(163, 91, 230);
+    color: rgb(163, 91, 230); /*#A056A0*/
+}
+
+.hidden {
+    display: none;
+}
+
+.portfolio_skills-descriptions {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    font-size: 25px;
+}
+
+.portfolio_skills-description_text, .instruction {
+    animation: appear .5s ease-in-out;
+}
+
+.portfolio_skills-description_text p, .instruction {
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .skill_box {
+        width: 70px;
+        height: 70px;
+    }
+
+    .portfolio_skills-descriptions {
+        font-size: 23px;
+    }
+}
+
+
+@media screen and  (max-width: 650px) {
+
+    .portfolio_skills-container {
+        flex-direction: column;
+        justify-content: unset;
+        min-height: 40vh;
+        gap: 5rem;
+    }
+
+    .portfolio_skills-icons {
+        width: 100%;
+    }
+
+    .portfolio_skills-descriptions {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) { 
+
+    .portfolio_skills-container {
+        min-height: 30vh;
+    }
+
+    .portfolio_skills-icons {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .skill_box {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .portfolio_skills-descriptions {
+        font-size: 15px;
+    }
+}

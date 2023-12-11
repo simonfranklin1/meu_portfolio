@@ -1,0 +1,84 @@
+.portfolio_about-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.portfolio_about-me {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.about_me_image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    background-color: rgb(163, 91, 230);
+    box-shadow: 0px 0px 20px rgb(163, 91, 230);
+    animation: float 2s alternate ease-in-out infinite;
+}
+
+@keyframes float {
+    from {
+        transform: translateY(-10%);
+    } to {
+        transform: translateY(0);
+    }
+}
+
+.about_me_info h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.about_me_info ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.about_me_info ul li svg {
+    color: rgb(163, 91, 230);
+    margin-right: .3rem;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .about_me_image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .portfolio_about-me {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .about_me_info ul li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .about_me_image img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .about_me_info ul li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .about_me_info ul li {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,100 @@
+.portfolio_header {
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background: radial-gradient(circle at 50% 50%, rgb(160, 86, 160) 10%, rgb(48, 16, 53) 100%);
+}
+
+.portfolio_header-title {
+    text-transform: uppercase;
+}
+
+.portfolio_header-title h2 {
+    font-size: 100px;
+    line-height: 80px;
+}
+
+.title-icons {
+    font-size: 55px;
+    line-height: 0;
+    margin-left: 1rem;
+}
+
+.title-icons svg {
+    cursor: pointer;
+    transition: .3s;
+    margin-right: 1rem;
+}
+
+.title-icons svg:hover {
+    scale: 1.1;
+    transform: translateY(-10%);
+}
+
+.portfolio_header-title p {
+    font-size: 18px;
+    font-weight: 600;
+    opacity: .7;
+}
+
+.portfolio_header-btn {
+    padding: .7rem 1.7rem;
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio_header-btn:hover {
+    background: #fff;
+    color: rgb(160, 86, 160);
+}
+
+@media screen and (max-width: 850px) {
+    .portfolio_header-title h2 {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .title-icons {
+        font-size: 40px;
+        margin-left: .8rem;
+    }
+
+    .title-icons svg {
+        margin-right: .5rem;
+    }
+
+    .portfolio_header-btn {
+        padding: .5rem 1.3rem;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .portfolio_header-title h2 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+
+    .title-icons {
+        font-size: 30px;
+        margin-left: .5rem;
+    }
+
+    .title-icons svg {
+        margin-right: .3rem;
+    }
+
+    .portfolio_header-title p {
+        font-size: 15px;
+    }
+}

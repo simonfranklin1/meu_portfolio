@@ -1,0 +1,58 @@
+.portfolio_contact-container_mailBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.mailBox-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailBox-header svg {
+    font-size: 65px;
+}
+
+.mailBox-header p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.portfolio_contact-container_mailBox-copy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact_email, .contact_copy-btn {
+    padding: .8rem 1rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+.contact_copy-btn {
+    font-weight: bold;
+    transition: .3s ease-in-out;
+    background-color: rgb(163, 91, 230);
+}
+
+.contact_copy-btn:hover {
+    background-color: rgb(196, 134, 255);
+}
+
+.copied {
+    background-color: rgb(121, 228, 121);
+}
+
+
+@media screen and (max-width: 450px) {
+    .contact_email {
+        font-size: 17px;
+    }
+}

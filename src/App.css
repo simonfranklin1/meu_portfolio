@@ -1,0 +1,29 @@
+.App {
+  background-color: #fff; /*#0f0f16*/
+}
+
+section {
+  padding: 40px 10%;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/*.portfolio_header-title, 
+.portfolio_header-link, 
+.portfolio_section-title, 
+.about_me_image, 
+.about_me_info, 
+.portfolio_about-timeline, 
+.project-card, 
+.portfolio_skills-icons, 
+.portfolio_skills-descriptions, 
+.portfolio_contact-container_mailBox {
+  visibility: hidden;
+}*/
