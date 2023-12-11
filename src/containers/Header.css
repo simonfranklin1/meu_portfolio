@@ -72,10 +72,6 @@
     .title-icons svg {
         margin-right: 1rem;
     }
-
-    .portfolio_header-btn {
-        padding: .5rem 1.3rem;
-    }
 }
 
 @media screen and (max-width: 650px) {
@@ -91,6 +87,22 @@
 
     .portfolio_header-btn {
         padding: .5rem 1.3rem;
+    }
+}
+
+@media screen and (max-width: 583px) {
+    .portfolio_header-title h2 {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .title-icons {
+        font-size: 35px;
+        margin-left: 1rem;
+    }
+
+    .title-icons svg {
+        margin-right: .875rem;
     }
 }
 
