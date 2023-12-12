@@ -46,7 +46,7 @@ const projectsData = [
     {
         image: YoutubeCloneImage,
         title: 'Clone do Youtube',
-        text: 'Consumindo a api do youtube o site lista os vídeos e suas informações como número de visualizações e likes, também é possível assistir aos videos.',
+        text: 'O usuário poderá buscar vídeos, assistí-los e ver informações como número de visualizações e curtidas. Além de poder acessar a página do canal no YouTube que postou o vídeo.',
         repo: 'https://github.com/simonfranklin1/youtube_clone',
         deploy: 'https://simonfranklin1.github.io/youtube_clone',
     },

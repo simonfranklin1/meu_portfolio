@@ -40,6 +40,7 @@
     font-weight: bold;
     transition: .3s ease-in-out;
     background-color: rgb(163, 91, 230);
+    cursor: pointer;
 }
 
 .contact_copy-btn:hover {

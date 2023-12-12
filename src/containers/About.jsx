@@ -8,26 +8,34 @@ import { FaCode, FaRegLightbulb, FaRocket } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
 import TimeLine from '../components/TimeLine'
 
+import { Fade } from 'react-awesome-reveal'
+
 const About = () => {
   return (
-    <section id='about_me' className="portfolio_about-container">
+    <section id='about_me' className="portfolio_about-container" style={{ overflow: 'hidden'}}>
       <SectionTitle title="sobre mim" />
 
       <div className="portfolio_about-me">
-        <div className="about_me_image">
-          <img src={Simon} alt="Simon Franklin" />
-        </div>
-        <div className="about_me_info">
-          <h3>Simon Franklin</h3>
-          <ul>
-            <li><FaCode /> Desenvolvendo interfaces e projetos pessoais desde 2022</li>
-            <li><FaGraduationCap /> Cursando Análise e Desenvolvimento de Sistemas</li>
-            <li><FaRegLightbulb /> Interesse em Desenvolvimento Front End</li>
-            <li><FaRocket /> Buscando oportunidade para atuar na área</li>
-          </ul>
-        </div>
+        <Fade direction='left' duration={1500} triggerOnce>
+          <div className="about_me_image">
+            <img src={Simon} alt="Simon Franklin" />
+          </div>
+        </Fade>
+        <Fade direction='right' duration={1500} delay={500} triggerOnce>
+          <div className="about_me_info">
+            <h3>Simon Franklin</h3>
+            <ul>
+              <li><FaCode /> Desenvolvendo interfaces e projetos pessoais desde 2022</li>
+              <li><FaGraduationCap /> Cursando Análise e Desenvolvimento de Sistemas</li>
+              <li><FaRegLightbulb /> Interesse em Desenvolvimento Front End</li>
+              <li><FaRocket /> Buscando oportunidade para atuar na área</li>
+            </ul>
+          </div>
+        </Fade>
       </div>
-      <TimeLine timeLineData={timeLineData} />
+      <Fade duration={1500} delay={750} triggerOnce>
+        <TimeLine timeLineData={timeLineData} />
+      </Fade>
     </section>
   )
 }
