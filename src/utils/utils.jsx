@@ -39,14 +39,14 @@ const projectsData = [
     {
         image: FranklinStoreImage,
         title: 'E-commerce Franklin Store',
-        text: 'Um E-commerce responsivo com catálogo, carrinho de compras, página individual para cada produto, checkout e histórico de compras.',
+        text: 'Um E-commerce com catálogo, carrinho de compras, página individual de cada produto, checkout e histórico de compras.',
         repo: 'https://github.com/simonfranklin1/E-commerce_react',
         deploy: 'https://simonfranklin1.github.io/E-commerce_react/',
     },
     {
         image: YoutubeCloneImage,
         title: 'Clone do Youtube',
-        text: 'O usuário poderá buscar vídeos, assistí-los e ver informações como número de visualizações e curtidas. Além de poder acessar a página do canal no YouTube que postou o vídeo.',
+        text: 'O usuário poderá buscar vídeos, assistí-los e ver informações como número de visualizações, curtidas e o canal que postou o vídeo.',
         repo: 'https://github.com/simonfranklin1/youtube_clone',
         deploy: 'https://simonfranklin1.github.io/youtube_clone',
     },

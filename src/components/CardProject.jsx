@@ -14,7 +14,7 @@ const CardProject = ({project}) => {
                   <button style={{textTransform: 'uppercase'}}>Repositório</button>
                 </a>
                 <a href={project.deploy} target='_blank' >
-                  <button style={{textTransform: 'uppercase'}}>Site</button>
+                  <button style={{textTransform: 'uppercase'}}>Projeto</button>
                 </a>
       </div>
     </div>
