@@ -3,14 +3,13 @@ import './Header.css'
 import { FaLinkedin } from "react-icons/fa";
 import { IoDocumentText } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
-import { Fade, Reveal } from 'react-awesome-reveal';
-import { HeaderAnimation } from '../utils/Animation';
+import { Fade } from 'react-awesome-reveal';
 
 const Header = () => {
   
   return (
     <section className='portfolio_header'>
-        <HeaderAnimation>
+        <Fade duration={2000} triggerOnce>
           <div className="portfolio_header-title">
             <p>Oi, eu sou o Simon</p>
             <h2 className='portfolio_header-title_first'>React
@@ -28,12 +27,15 @@ const Header = () => {
             </h2>
             <h2>Developer</h2>
           </div>
-          <a href="#about_me" className="portfolio_header-link">
-            <button className="portfolio_header-btn">
-              Sobre mim
-            </button>
-          </a>
-        </HeaderAnimation>
+        </Fade>
+        <Fade direction='up' duration={2000} delay={500} triggerOnce>
+            <a href="#about_me" className="portfolio_header-link">
+              <button className="portfolio_header-btn">
+                Sobre mim
+              </button>
+            </a>
+        </Fade>
+        
         
     </section>
   )
