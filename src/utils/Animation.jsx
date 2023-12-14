@@ -2,7 +2,7 @@ import React from "react";
 import Reveal from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
 
-const headerAnimation = keyframes`
+const titleAnimation = keyframes`
     from {
         opacity: 0;
         transform: translateY(90px)
@@ -24,8 +24,8 @@ const projectsAnimation = keyframes`
     }
 `
 
-function HeaderAnimation({children}) {
-    return <Reveal keyframes={headerAnimation} triggerOnce>{children}</Reveal>
+function TitleAnimation({children}) {
+    return <Reveal keyframes={titleAnimation} triggerOnce>{children}</Reveal>
 }
 
 function ProjectsAnimation({children}) {
@@ -33,6 +33,6 @@ function ProjectsAnimation({children}) {
 }
 
 export {
-    HeaderAnimation,
+    TitleAnimation,
     ProjectsAnimation
 }

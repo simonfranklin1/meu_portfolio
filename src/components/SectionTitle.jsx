@@ -1,6 +1,5 @@
 import React from 'react'
 import './SectionTitle.css'
-import { HeaderAnimation } from '../utils/Animation'
 
 const SectionTitle = ({title}) => {
 
