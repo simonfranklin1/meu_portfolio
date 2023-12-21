@@ -23,9 +23,10 @@ const Header = () => {
               <a href="https://www.linkedin.com/in/simon-franklin-1a8976274/" target='_blank'>
                 <FaLinkedin />
               </a>
-              </span>
+              </span> <br />
+              Developer
             </h2>
-            <h2>Developer</h2>
+            
           </div>
         </Fade>
         <Fade direction='up' duration={2000} delay={500} triggerOnce>
