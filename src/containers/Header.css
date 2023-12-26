@@ -15,7 +15,7 @@
     text-transform: uppercase;
 }
 
-.portfolio_header-title h2 {
+.portfolio_header-title h1 {
     font-size: 130px;
     line-height: 110px;
 }
@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 936px) {
-    .portfolio_header-title h2 {
+    .portfolio_header-title h1 {
         font-size: 100px;
         line-height: 80px;
     }
@@ -77,7 +77,7 @@
 }
 
 @media screen and (max-width: 650px) {
-    .portfolio_header-title h2 {
+    .portfolio_header-title h1 {
         font-size: 80px;
         line-height: 65px;
     }
@@ -97,7 +97,7 @@
 }
 
 @media screen and (max-width: 583px) {
-    .portfolio_header-title h2 {
+    .portfolio_header-title h1 {
         font-size: 70px;
         line-height: 60px;
     }
@@ -118,7 +118,7 @@
         gap: 5rem;
     }
 
-    .portfolio_header-title h2 {
+    .portfolio_header-title h1 {
         font-size: 60px;
         line-height: 50px;
     }

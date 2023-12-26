@@ -29,10 +29,10 @@ const Contact = () => {
   return (
     <footer className="porfolio_contact-container">
       <div className="porfolio_contact-container_top">
-        <p className="portfolio_contact-container_title">
+        <div className="portfolio_contact-container_title">
             <BsMailboxFlag className='mailBox-icon' />
             <p>Me envie um email</p>
-        </p>
+        </div>
         <p className={`porfolio_contact-container_email ${emailCopied ? 'copied' : ''}`} ref={emailRef}>simonfranklin.54@gmail.com</p>
         <button className="copy_email_btn" onClick={handleEmailCopy}>{emailCopied? 'Email copiado!' : 'Copiar'}</button> 
       </div>

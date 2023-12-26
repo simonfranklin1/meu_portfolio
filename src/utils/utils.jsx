@@ -41,7 +41,7 @@ const projectsData = [
         title: 'E-commerce Franklin Store',
         text: 'Um E-commerce com catálogo, carrinho de compras, página individual de cada produto, checkout e histórico de compras.',
         repo: 'https://github.com/simonfranklin1/E-commerce_react',
-        deploy: 'https://simonfranklin1.github.io/E-commerce_react/',
+        deploy: 'https://franklin-store.vercel.app/',
     },
     {
         image: YoutubeCloneImage,

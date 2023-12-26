@@ -12,7 +12,7 @@ const Header = () => {
         <Fade duration={2000} triggerOnce>
           <div className="portfolio_header-title">
             <p>Oi, eu sou o Simon</p>
-            <h2 className='portfolio_header-title_first'>React
+            <h1 className='portfolio_header-title_first'>React
             <span className="title-icons">
               <a href="https://github.com/simonfranklin1" target="_blank">
                 <FaGithub />
@@ -25,7 +25,7 @@ const Header = () => {
               </a>
               </span> <br />
               Developer
-            </h2>
+            </h1>
             
           </div>
         </Fade>
