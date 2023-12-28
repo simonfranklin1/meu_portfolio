@@ -8,6 +8,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaGitSquare } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 
 const timeLineData = [
     {
@@ -84,6 +85,11 @@ const skillsData = [
         title: 'Git',
         icon: <FaGitSquare  />,
         description: 'Sistema de controle de versão baseado em repositórios que contém todas as versões do código e as cópias de cada desenvolvedor.'
+    },
+    {
+        title: 'Tailwind CSS',
+        icon: <SiTailwindcss />,
+        description: 'Framework CSS que simplifica a criação de interfaces modernas e responsivas.'
     }
 ]
 
