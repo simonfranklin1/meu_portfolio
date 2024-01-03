@@ -16,12 +16,12 @@ const About = () => {
       <SectionTitle title="sobre mim" />
 
       <div className="portfolio_about-me">
-        <Fade direction='left' duration={1500} triggerOnce>
+        <Fade direction='left' duration={1500}>
           <div className="about_me_image">
             <img src={Simon} alt="Simon Franklin" />
           </div>
         </Fade>
-        <Fade direction='right' duration={1500} delay={500} triggerOnce>
+        <Fade direction='right' duration={1500} delay={500}>
           <div className="about_me_info">
             <h3>Simon Franklin</h3>
             <ul>
@@ -33,7 +33,7 @@ const About = () => {
           </div>
         </Fade>
       </div>
-      <Fade duration={1500} delay={750} triggerOnce>
+      <Fade duration={1500} delay={750}>
         <TimeLine timeLineData={timeLineData} />
       </Fade>
     </section>

@@ -9,7 +9,7 @@ const Header = () => {
   
   return (
     <section className='portfolio_header'>
-        <Fade duration={2000} triggerOnce>
+        <Fade duration={2000}>
           <div className="portfolio_header-title">
             <p>Oi, eu sou o Simon</p>
             <h1 className='portfolio_header-title_first'>React
@@ -29,7 +29,7 @@ const Header = () => {
             
           </div>
         </Fade>
-        <Fade direction='up' duration={2000} delay={500} triggerOnce>
+        <Fade direction='up' duration={2000} delay={500}>
             <a href="#about_me" className="portfolio_header-link">
               <button className="portfolio_header-btn">
                 Sobre mim

@@ -29,7 +29,7 @@ function TitleAnimation({children}) {
 }
 
 function ProjectsAnimation({children}) {
-    return <Reveal cascade damping={0.3} keyframes={projectsAnimation} triggerOnce>{children}</Reveal>
+    return <Reveal cascade damping={0.3} keyframes={projectsAnimation}>{children}</Reveal>
 }
 
 export {
