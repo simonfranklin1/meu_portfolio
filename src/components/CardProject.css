@@ -41,10 +41,14 @@
     font-size: 15px;
     padding: .5rem 1.5rem;
     border: none;
-    border-radius: 25px;
+    border-radius: 5px;
     transition: .3s ease-in-out;
     cursor: pointer;
     font-weight: 500;
+}
+
+.project-card_links button:hover {
+    scale: 1.05;
 }
 
 .project-card_links-repo_btn {
@@ -55,17 +59,7 @@
 .project-card_links-demo_btn {
     background-color: #fff;
     color: #001;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.226);
-}
-
-.project-card_links-repo_btn:hover {
-    background: rgb(130, 72, 184);
-    scale: 1.05;
-}
-
-.project-card_links-demo_btn:hover {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); 
-    scale: 1.05;   
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.150);
 }
 
 @media screen and (max-width: 450px) {
@@ -73,15 +67,24 @@
         width: 100%;
     }
 
+    .project-card_info {
+        padding: 1rem 1rem 0;
+    }  
+    
     .project-card_info-title {
         font-size: 17px;
     }
 
-    .project-card_info {
-        padding: 1rem 1rem 0;
-    }    
-
     .project-card_links {
         padding: 1rem;
+        gap: 1rem;
+    }
+
+    .project-card_links button {
+       font-size: 11px; 
+    }
+
+    .project-card_links svg {
+        font-size: 13px;
     }
 }

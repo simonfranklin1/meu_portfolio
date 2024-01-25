@@ -21,7 +21,7 @@ const CardProject = ({project}) => {
                 </a>
                 <a href={project.deploy} target='_blank' >
                   <button style={{textTransform: 'uppercase'}} className='project-card_links-demo_btn'>
-                    Site no Ar <CgMediaLive/>
+                    Projeto <CgMediaLive/>
                   </button>
                 </a>
       </div>
