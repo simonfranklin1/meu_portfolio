@@ -2,6 +2,7 @@ import GerichRestaurantImage from '../assets/img/Imagem Portfólio definitiva 1.
 import FranklinStoreImage from '../assets/img/Imagem Portfólio definitiva 2.png';
 import YoutubeCloneImage from '../assets/img/Imagem Portfólio definitiva 3.png';
 import BuyingCart from '../assets/img/Imagem Portfólio definitiva 4.png';
+import BreakingNews from '../assets/img/Imagem Portfólio breaking news.png';
 
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -31,11 +32,11 @@ const timeLineData = [
 
 const projectsData = [
     {
-        image: GerichRestaurantImage,
-        title: 'Landing Page Restaurante',
-        text: 'Landing Page Moderno e responsivo de um restaurante feito em React JS com menu e barra de navegação.',
-        repo: 'https://github.com/simonfranklin1/Landing-page-Restaurante',
-        deploy: 'https://simonfranklin1.github.io/Landing-page-Restaurante/',
+        image: BreakingNews,
+        title: 'Breaking News',
+        text: 'Site de notícias com sistema de login e autenticação, o usuário pode publicar notícias e interagir com as notícias de outros usuários.',
+        repo: 'https://github.com/simonfranklin1/breaking-news-next',
+        deploy: 'https://breaking-news-lilac.vercel.app/',
     },
     {
         image: FranklinStoreImage,
@@ -52,11 +53,11 @@ const projectsData = [
         deploy: 'https://simonfranklin1.github.io/youtube_clone',
     },
     {
-        image: BuyingCart,
-        title: 'Carrinho de compras',
-        text: 'O usuário pode adicionar produtos ao carrinho, controlar sua quantidade, removê-los e buscar um produto específico na barra de busca.',
-        repo: 'https://github.com/simonfranklin1/carrinho-de-compras',
-        deploy: 'https://simonfranklin1.github.io/carrinho-de-compras/',
+        image: GerichRestaurantImage,
+        title: 'Landing Page Restaurante',
+        text: 'Landing Page Moderno e responsivo de um restaurante feito em React JS com menu e barra de navegação.',
+        repo: 'https://github.com/simonfranklin1/Landing-page-Restaurante',
+        deploy: 'https://simonfranklin1.github.io/Landing-page-Restaurante/',
     }
 ]
 
