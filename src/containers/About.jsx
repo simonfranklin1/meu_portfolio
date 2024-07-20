@@ -26,9 +26,9 @@ const About = () => {
             <h3>Simon Franklin</h3>
             <ul>
               <li><FaCode /> Desenvolvendo interfaces e projetos pessoais desde 2022</li>
-              <li><FaGraduationCap /> Cursando Análise e Desenvolvimento de Sistemas</li>
+              <li><FaGraduationCap /> Cursando Sistemas de Informação</li>
               <li><FaRegLightbulb /> Interesse em Desenvolvimento Front End</li>
-              <li><FaRocket /> Buscando oportunidade para atuar na área</li>
+              <li><FaRocket /> Trabalhando como Desenvolvedor Front End</li>
             </ul>
           </div>
         </Fade>

@@ -10,6 +10,8 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaGitSquare } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import { SiMui } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const timeLineData = [
     {
@@ -22,11 +24,11 @@ const timeLineData = [
     },
     {
         year: '2023',
-        event: 'Estudando React, integração com APIs e desenvolvendo projetos pessoais para fixar o aprendizado.'
+        event: 'Estudando React, integração com APIs e começando a trabalhar em projetos como freelancer.'
     },
     {
         year: 'Atualmente',
-        event: 'Em busca da primeira vaga como Desenvolvedor Front end.'
+        event: 'Sou Desenvolvedor Front End na empresa Brio Tecnologia'
     }
 ];
 
@@ -90,7 +92,17 @@ const skillsData = [
     {
         title: 'Tailwind CSS',
         icon: <SiTailwindcss />,
-        description: 'Framework CSS que simplifica a criação de interfaces modernas e responsivas.'
+        description: 'Framework CSS que simplifica a criação e estilização de interfaces modernas e responsivas utilizando classes.'
+    },
+    {
+        title: 'Material UI',
+        icon: <SiMui />,
+        description: 'Biblioteca de componentes React que implementa o Material Design do Google. É abrangente e pode ser usado na produção imediatamente.'
+    },
+    {
+        title: 'TypeScript',
+        icon: <SiTypescript />,
+        description: 'É um superset que deixa o JavaScript mais poderoso adicionando tipos. Acelera o processo de desenvolvimento achando erros e providenciando soluções.'
     }
 ]
 
