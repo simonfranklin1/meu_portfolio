@@ -28,7 +28,7 @@ const timeLineData = [
     },
     {
         year: 'Atualmente',
-        event: 'Sou Desenvolvedor Front End na empresa Brio Tecnologia'
+        event: 'Após muitas tentativas, estou atuando como Desenvolvedor Frontend na Brio Tecnologia'
     }
 ];
 

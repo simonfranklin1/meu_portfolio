@@ -12,7 +12,7 @@ import { Fade } from 'react-awesome-reveal'
 
 const About = () => {
   return (
-    <section id='about_me' className="portfolio_about-container" style={{ overflow: 'hidden'}}>
+    <section id='about_me' className="portfolio_about-container" style={{ overflow: 'hidden' }}>
       <SectionTitle title="sobre mim" />
 
       <div className="portfolio_about-me">
@@ -25,7 +25,7 @@ const About = () => {
           <div className="about_me_info">
             <h3>Simon Franklin</h3>
             <ul>
-              <li><FaCode /> Desenvolvendo interfaces e projetos pessoais desde 2022</li>
+              <li><FaCode /> Desenvolvendo interfaces desde 2022</li>
               <li><FaGraduationCap /> Cursando Sistemas de Informação</li>
               <li><FaRegLightbulb /> Interesse em Desenvolvimento Front End</li>
               <li><FaRocket /> Trabalhando como Desenvolvedor Front End</li>
